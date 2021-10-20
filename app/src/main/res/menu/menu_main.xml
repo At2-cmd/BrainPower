@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mi_refresh"
+        android:icon="@drawable/ic_refresh"
+        android:title="Play Again"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/mi_hardness_easy"
+        android:title="EASY LEVEL"
+
+        />
+    <item
+        android:id="@+id/mi_hardness_medium"
+        android:title="MEDIUM LEVEL" />
+    <item
+        android:id="@+id/mi_hardness_hard"
+        android:title="HARD LEVEL"
+        app:showAsAction="never" />
+
+</menu>
